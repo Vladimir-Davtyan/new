@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="inner__header">
+                <div class="header__logo"><img src="./images/nike_wh.png" class="nike__logo"alt=""></div>
+                <nav>
+                    <a class="nav__link" href="#">About</a>
+                    <a class="nav__link" href="#">Service</a>
+                    <a class="nav__link" href="#">Products</a>
+                    <a class="nav__link" href="#">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="image">
+            <img src="./images/pexels-aman-jakhar-2048548.jpg" alt="" class="slide active">
+            <img src="images/img1.jpg" alt="" class="slide">
+            <img src="images/maksim-larin-1vy2QcZd5FU-unsplash.jpg" alt="" class="slide">
+            <img src="./images/img2.jpg" alt="" class="slide">
+        </div>
+    </div>
+    <ul class="controls">
+        <li onclick="prevSlide()"></li>
+        <li onclick="nextSlide()"></li>
+    </ul>
+
+    <div class="products">
+        <div class="main">
+            <div class="container">
+                <div class="card" onclick="popUp()">
+                    <div class="sneaker">
+                        <div class="circle"></div>
+                        <img src="./images/air-zoom-pegasus-38-mens-running-shoe-lq7PZZ-removebg-preview.png">
+                    </div>
+                    <div class="info">
+                        <h1 class="title">Nike</h1>
+                        <h3>FUTURE-READY TRAINERS WITH WRAPPED BOOST FOR EXCEPTION COMFORT.</h3>
+                        <div class="sizes">
+                            <button>39</button>
+                            <button>40</button>
+                            <button class="active">42</button>
+                            <button>44</button>
+                        </div>
+                        <div class="purchase">
+                            <button>Purchase</button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="container">
+                <div class="card" onclick="popUp()">
+                    <div class="sneaker">
+                        <div class="circle"></div>
+                        <img src="./images/air-zoom-pegasus-38-mens-running-shoe-lq7PZZ-removebg-preview.png">
+                    </div>
+                    <div class="info">
+                        <h1 class="title">Nike</h1>
+                        <h3>FUTURE-READY TRAINERS WITH WRAPPED BOOST FOR EXCEPTION COMFORT.</h3>
+                        <div class="sizes">
+                            <button>39</button>
+                            <button>40</button>
+                            <button class="active">42</button>
+                            <button>44</button>
+                        </div>
+                        <div class="purchase">
+                            <button>Purchase</button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="container">
+                <div class="card" onclick="popUp()">
+                    <div class="sneaker">
+                        <div class="circle"></div>
+                        <img src="./images/air-zoom-pegasus-38-mens-running-shoe-lq7PZZ-removebg-preview.png">
+                    </div>
+                    <div class="info">
+                        <h1 class="title">Nike</h1>
+                        <h3>FUTURE-READY TRAINERS WITH WRAPPED BOOST FOR EXCEPTION COMFORT.</h3>
+                        <div class="sizes">
+                            <button>39</button>
+                            <button>40</button>
+                            <button class="active">42</button>
+                            <button>44</button>
+                        </div>
+                        <div class="purchase">
+                            <button>Purchase</button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="container">
+                <div class="card" onclick="popUp()">
+                    <div class="sneaker">
+                        <div class="circle"></div>
+                        <img src="./images/air-zoom-pegasus-38-mens-running-shoe-lq7PZZ-removebg-preview.png">
+                    </div>
+                    <div class="info">
+                        <h1 class="title">Nike</h1>
+                        <h3>FUTURE-READY TRAINERS WITH WRAPPED BOOST FOR EXCEPTION COMFORT.</h3>
+                        <div class="sizes">
+                            <button>39</button>
+                            <button>40</button>
+                            <button class="active">42</button>
+                            <button>44</button>
+                        </div>
+                        <div class="purchase">
+                            <button>Purchase</button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="container">
+                <div class="card" onclick="popUp()">
+                    <div class="sneaker">
+                        <div class="circle"></div>
+                        <img src="./images/air-zoom-pegasus-38-mens-running-shoe-lq7PZZ-removebg-preview.png">
+                    </div>
+                    <div class="info">
+                        <h1 class="title">Nike</h1>
+                        <h3>FUTURE-READY TRAINERS WITH WRAPPED BOOST FOR EXCEPTION COMFORT.</h3>
+                        <div class="sizes">
+                            <button>39</button>
+                            <button>40</button>
+                            <button class="active">42</button>
+                            <button>44</button>
+                        </div>
+                        <div class="purchase">
+                            <button>Purchase</button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            
+        </div>
+    </div>
+
+    <div class="product__pop__up">
+        <div class="back" onclick="back()">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="container">
+            <div class="images">
+                <div class="image">
+                    <img src="./images/1.jfif" alt="">
+                    <img src="./images/2.png" alt="">
+                </div>
+                <div class="image">
+                    <img src="./images/3.png" alt="">
+                    <img src="./images/4.png" alt="">
+                </div>
+                <div class="image">
+                    <img src="./images/5.png" alt="">
+                    <img src="./images/6.png" alt="">
+                </div>
+            </div>
+            <div class="information">
+                <h1 class="title">Nike Air Zoom Pegasus 38</h1>
+                <div class="buttons">
+                    <button>Regular</button>
+                    <button>Extra Wide</button>
+                </div>
+                <div class="sizes">
+                    <div class="size">
+                        <button>6</button>
+                        <button>6.5</button>
+                        <button>7</button>
+                        <button>7.5</button>
+                        <button>8</button>
+                    </div>
+                    <div class="size">
+                        <button>8.5</button>
+                        <button>9</button>
+                        <button>9.5</button>
+                        <button>10</button>
+                        <button>10.5</button>
+                    </div>
+                </div>
+                <p>Your workhorse with wings returns. The Nike Air Zoom Pegasus 38 continues to put a spring in your step, using the same responsive foam as its predecessor. Breathable mesh in the upper combines the comfort and durability you want with a wider fit at the toes.</p>
+                <button class="bag">Add To Bag</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js"></script>
+    <script src="https://kit.fontawesome.com/1e61a52729.js" crossorigin="anonymous"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/popUP.js"></script>
+</body>
+</html>
